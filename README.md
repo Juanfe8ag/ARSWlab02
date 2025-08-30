@@ -26,4 +26,4 @@ se concluyó que era por error de sincronización, ya que era posible que se acc
 se implemento un método sincronizado para que se acceda a él uno a uno y no se repita el puesto. 
 
 Por último, también se tenía que implementar la funcionalidad de los botones stop y continue, para ello se creo una nueva clase llamada PauseRace para que
-mediante los métodos wait() y notifyAll() se pararan o reanudaran los hilos dependiendo el caso. 
+mediante los métodos wait() y notifyAll() se pararan o reanudaran los hilos dependiendo el caso, de manera que se hiciera por un "monitor común". 
